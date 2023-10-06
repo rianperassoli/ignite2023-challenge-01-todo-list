@@ -1,3 +1,36 @@
 .wrapper {
-  color: red;
+  max-width: 46rem;
+  margin: 0 auto;
+}
+
+.createTask {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: -1.6875rem;
+  margin-bottom: 4rem;
+}
+
+.tasksHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.tasksHeader > p {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--blue);
+}
+
+.tasksHeader > p:last-child {
+  color: var(--purple);
+}
+
+.tasksHeader > p > span {
+  margin-left: 0.5rem;
+  background-color: var(--gray-400);
+  color: var(--gray-200);
+  padding: 0.125rem 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
 }
